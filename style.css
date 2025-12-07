@@ -88,8 +88,9 @@ footer {
 }
 body.home-page {
   background-image: url('images/home-bg.jpg');
-  background-size: cover;
+  background-size: contain;    /* image mag-fit sa screen pero di mag-cover lahat */
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
