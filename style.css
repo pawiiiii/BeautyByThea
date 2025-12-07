@@ -1,1 +1,82 @@
 <link rel="stylesheet" href="style.css">
+/* --- General Styles --- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f1e9; /* light khaki pastel */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d8c4b6; /* darker khaki pastel */
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #e7d9c3;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #c9b49a;
+  color: #fff;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #5a4b3d;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: #d8c4b6;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #c9b49a;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e7d9c3;
+  margin-top: 20px;
+}
