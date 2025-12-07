@@ -86,25 +86,12 @@ footer {
   object-fit: cover;
   border-radius: 5px;
 }
-/* ------------------- Home Page Background ------------------- */
 body.home-page {
-  background-image: url('images/home-bg.jpg');  /* path sa uploaded image sa GitHub */
-  background-size: cover;       /* full screen pero maintain aspect ratio */
-  background-position: center;  /* naka-center */
-  background-repeat: no-repeat; /* hindi mauulit */
-  min-height: 100vh;            /* full viewport height */
-  position: relative;           /* para sa overlay */
-}
-
-/* Overlay para readable ang text */
-body.home-page::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(245, 241, 233, 0.35); /* babaan transparency para visible image */
-  z-index: -1; /* behind content */
+  background-image: url('images/home-bg.jpg');
+  background-size: 100% auto;   /* WIDTH = sakto sa screen, HEIGHT = auto */
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 
