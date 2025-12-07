@@ -86,3 +86,10 @@ footer {
   object-fit: cover;
   border-radius: 5px;
 }
+body.home-page {
+  background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* full height para di lumagpas o overlap */
+}
