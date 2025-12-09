@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Profile - Beauty by Thea</title>
+  <title>Beauty by Thea - Profile</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-<header>
-  <h1>Beauty by Thea</h1>
-</header>
-
-<div class="profile-container">
-
-  <img src="https://i.ibb.co/vk5qPvj/profile.jpg" class="profile-pic">
-
-  <p class="change-photo">Change Photo</p>
-
-  <div class="info-box">
-    <div class="info-row"><span>Name</span> <span>✏️</span></div>
-    <div class="info-row"><span>Address</span> <span>✏️</span></div>
-    <div class="info-row"><span>Phone</span> <span>✏️</span></div>
-    <div class="info-row"><span>Email</span> <span>✏️</span></div>
+  <header>
+    <h1>Beauty by Thea</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+    <a href="status.html">Order Status</a>
+  </nav>
+  <div class="container profile-page">
+    <div class="profile-pic">
+      <img src="images/profile-placeholder.png" alt="Profile">
+      <p class="change-photo">Change Photo</p>
+    </div>
+    <hr>
+    <div class="profile-info">
+      <div class="info-item">
+        <span>Name: Thea</span>
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+      <div class="info-item">
+        <span>Address: Manila, Philippines</span>
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+      <div class="info-item">
+        <span>Phone: 09123456789</span>
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+      <div class="info-item">
+        <span>Email: thea@example.com</span>
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+    </div>
+    <hr>
+    <div class="profile-icons">
+      <i class="fas fa-ticket-alt" title="Voucher"></i>
+      <i class="fas fa-question-circle" title="Help Center"></i>
+      <i class="fas fa-heart" title="My Likes"></i>
+    </div>
   </div>
-
-  <div class="info-box">
-    <div class="info-row"><span>Voucher</span></div>
-    <div class="info-row"><span>Help</span></div>
-    <div class="info-row"><span>Liked Items</span></div>
-  </div>
-
-</div>
-
+  <footer>
+    &copy; 2025 Beauty by Thea
+  </footer>
 </body>
 </html>
