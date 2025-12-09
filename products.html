@@ -3,85 +3,133 @@
 <head>
   <title>Beauty by Thea - Products</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
   <header>
     <h1>Beauty by Thea</h1>
   </header>
+
+  <!-- NAVIGATION -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="cart.html">Cart</a>
-    <a href="profile.html">Profile</a>
-    <a href="status.html">Order Status</a>
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="products.html" class="active"><i class="fa-solid fa-store"></i> Products</a>
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+    <a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a>
+    <a href="status.html"><i class="fa-solid fa-box"></i> Order Status</a>
   </nav>
+
   <div class="container">
+
+    <!-- SEARCH BAR -->
+    <div class="search-container">
+      <input type="text" placeholder="Search products...">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+    </div>
+
     <h2>Our Products</h2>
+
     <div class="products">
+
+      <!-- PRODUCT 1 -->
       <div class="product-card">
-        <img src="https://images-cdn.ubuy.co.in/633b56634c69fc6d8e2b5aa1-6pcs-matte-liquid-lipstick-makeup-set.jpg" alt="Lipstick">
+        <img src="https://images-cdn.ubuy.co.in/633b56634c69fc6d8e2b5aa1-6pcs-matte-liquid-lipstick-makeup-set.jpg">
         <h3>Lipstick</h3>
-        <p>₱150</p>
-        <button>Add to Cart</button>
+        <p class="desc">Soft matte, easy to blend ✨</p>
+        <p class="price">₱150</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 2 -->
       <div class="product-card">
-        <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/compact/w/1/2/-original-imagz7wvz686gv95.jpeg?q=90" alt="Face Powder">
+        <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/compact/w/1/2/-original-imagz7wvz686gv95.jpeg?q=90">
         <h3>Face Powder</h3>
-        <p>₱180</p>
-        <button>Add to Cart</button>
+        <p class="desc">Lightweight and smooth finish</p>
+        <p class="price">₱180</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 3 -->
       <div class="product-card">
-        <img src="https://beautybar.com.ph/cdn/shop/products/1oiACLupJEwP6R_z-H73ohdiaLBqQWEtu.jpg?v=1685067231" alt="Hand Cream">
+        <img src="https://beautybar.com.ph/cdn/shop/products/1oiACLupJEwP6R_z-H73ohdiaLBqQWEtu.jpg?v=1685067231">
         <h3>Hand Cream</h3>
-        <p>₱120</p>
-        <button>Add to Cart</button>
+        <p class="desc">Moisturizing & long-lasting</p>
+        <p class="price">₱120</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 4 -->
       <div class="product-card">
-        <img src="https://images.squarespace-cdn.com/content/63c0953bc4dbe57ca3b1526b/1681789828502-0D9CXCD823DFD7ATR7D2/BeautyReport-FaceWash-1080x1080.jpg?content-type=image%2Fjpeg" alt="Facial Wash">
+        <img src="https://images.squarespace-cdn.com/content/63c0953bc4dbe57ca3b1526b/1681789828502-0D9CXCD823DFD7ATR7D2/BeautyReport-FaceWash-1080x1080.jpg?content-type=image%2Fjpeg">
         <h3>Facial Wash</h3>
-        <p>₱140</p>
-        <button>Add to Cart</button>
+        <p class="desc">Gentle & refreshing</p>
+        <p class="price">₱140</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 5 -->
       <div class="product-card">
-        <img src="https://media.allure.com/photos/69050b4210c91f09f41c32aa/1:1/w_2700,h_2700,c_limit/10.30_ALL_11%20Best%20Korean%20Serums%20for%20Impossibly%20Hydrated%20Skin.jpg" alt="Serum">
+        <img src="https://media.allure.com/photos/69050b4210c91f09f41c32aa/1:1/w_2700,h_2700,c_limit/10.30_ALL_11%20Best%20Korean%20Serums%20for%20Impossibly%20Hydrated%20Skin.jpg">
         <h3>Serum</h3>
-        <p>₱200</p>
-        <button>Add to Cart</button>
+        <p class="desc">Hydrates & brightens skin</p>
+        <p class="price">₱200</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 6 -->
       <div class="product-card">
-        <img src="https://content.syndigo.com/asset/eefb3a0b-7df7-49fa-9bc1-8f72a6767d91/480.webp" alt="Moisturizer">
+        <img src="https://content.syndigo.com/asset/eefb3a0b-7df7-49fa-9bc1-8f72a6767d91/480.webp">
         <h3>Moisturizer</h3>
-        <p>₱250</p>
-        <button>Add to Cart</button>
+        <p class="desc">Smooth, glowing finish</p>
+        <p class="price">₱250</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 7 -->
       <div class="product-card">
-        <img src="https://naturerepublic.com.ph/cdn/shop/files/BYFLOWERBLUSHER08PEACHCORAL.jpg?v=1716963698" alt="Blush">
+        <img src="https://naturerepublic.com.ph/cdn/shop/files/BYFLOWERBLUSHER08PEACHCORAL.jpg?v=1716963698">
         <h3>Blush</h3>
-        <p>₱130</p>
-        <button>Add to Cart</button>
+        <p class="desc">Natural sweet color 🍑</p>
+        <p class="price">₱130</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 8 -->
       <div class="product-card">
-        <img src="https://nichido.com.ph/cdn/shop/files/COVER_1abd8238-dfdc-463f-bbe9-ee45cdd351cd_1500x.jpg?v=1715061934" alt="Eyeliner">
+        <img src="https://nichido.com.ph/cdn/shop/files/COVER_1abd8238-dfdc-463f-bbe9-ee45cdd351cd_1500x.jpg?v=1715061934">
         <h3>Eyeliner</h3>
-        <p>₱160</p>
-        <button>Add to Cart</button>
+        <p class="desc">Smooth, bold lines</p>
+        <p class="price">₱160</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 9 -->
       <div class="product-card">
-        <img src="https://cdn.thewirecutter.com/wp-content/media/2024/06/lip-balm-2048px-7081.jpg?auto=webp&quality=75&width=1024" alt="Lip Balm">
+        <img src="https://cdn.thewirecutter.com/wp-content/media/2024/06/lip-balm-2048px-7081.jpg?auto=webp&quality=75&width=1024">
         <h3>Lip Balm</h3>
-        <p>₱100</p>
-        <button>Add to Cart</button>
+        <p class="desc">Hydrates lips all day 💋</p>
+        <p class="price">₱100</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
+      <!-- PRODUCT 10 -->
       <div class="product-card">
-        <img src="https://img.lazcdn.com/g/p/b467d998c177918ef6d873daaf649ecf.jpg_720x720q80.jpg" alt="Nail Polish">
+        <img src="https://img.lazcdn.com/g/p/b467d998c177918ef6d873daaf649ecf.jpg_720x720q80.jpg">
         <h3>Nail Polish</h3>
-        <p>₱180</p>
-        <button>Add to Cart</button>
+        <p class="desc">Glossy & long lasting</p>
+        <p class="price">₱180</p>
+        <button class="add-btn"><i class="fa-solid fa-cart-plus"></i></button>
       </div>
+
     </div>
   </div>
+
   <footer>
-    &copy; 2025 Beauty by Thea
+    © 2025 Beauty by Thea
   </footer>
+
 </body>
 </html>
