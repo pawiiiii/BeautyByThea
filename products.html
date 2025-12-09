@@ -4,6 +4,30 @@
   <title>Beauty by Thea - Products</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Additional style for message icon beside search bar */
+    .search-bar-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      gap: 10px; /* space between search bar and message icon */
+    }
+    .search-bar-wrapper input {
+      width: 80%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .search-bar-wrapper .search-message i {
+      font-size: 28px;
+      color: #5a4b3d;
+      cursor: pointer;
+    }
+    .search-bar-wrapper .search-message i:hover {
+      color: #c9b49a;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -18,8 +42,8 @@
   </nav>
 
   <div class="container">
-    <!-- SEARCH BAR WITH MESSAGE ICON -->
-    <div class="search-bar-container">
+    <!-- SEARCH BAR WITH MESSAGE ICON BESIDE IT -->
+    <div class="search-bar-wrapper">
       <input type="text" placeholder="Search products...">
       <div class="search-message">
         <i class="fas fa-envelope"></i>
