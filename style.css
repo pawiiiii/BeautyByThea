@@ -247,3 +247,24 @@ body.home-page {
 
 .status-item p {
   margin-top:
+
+    /* White background box for About Us */
+.about-container {
+  background: #ffffff;
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* Make Beauty by Thea always cursive */
+header h1,
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 42px;
+  font-weight: normal;
+}
+
