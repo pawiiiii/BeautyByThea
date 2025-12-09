@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty by Thea - Profile</title>
   <link rel="stylesheet" href="style.css">
-  <title>Profile - Eats By Bianca</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+  <header>
+    <h1>Beauty by Thea</h1>
+  </header>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">Eats By Bianca</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="cart.html">Cart</a></li>
-      <li><a href="profile.html" class="active">Profile</a></li>
-    </ul>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html" class="active">Profile</a>
+    <a href="status.html">Order Status</a>
   </nav>
 
-  <!-- Profile Section -->
-  <section class="profile-section">
+  <div class="container profile-container">
     <div class="profile-card">
-      
       <img src="images/default-profile.png" alt="Profile Picture" class="profile-pic">
-
-      <h2>Bianca Pedrezuela</h2>
-      <p class="email">bianca@example.com</p>
+      <button class="change-photo-btn"><i class="fa-solid fa-camera"></i> Change Photo</button>
 
       <div class="profile-info">
-        <h3>Account Information</h3>
-        <p><strong>Username:</strong> bianca19</p>
-        <p><strong>Address:</strong> Sampaloc, Manila</p>
-        <p><strong>Phone:</strong> 0912-345-6789</p>
+        <p><strong>Name:</strong> Althea Bianca S. Pedrezuela <i class="fa-solid fa-pencil edit-icon"></i></p>
+        <p><strong>Address:</strong> Sampaloc, Manila <i class="fa-solid fa-pencil edit-icon"></i></p>
+        <p><strong>Phone:</strong> 0912-345-6789 <i class="fa-solid fa-pencil edit-icon"></i></p>
+        <p><strong>Email:</strong> althea@example.com <i class="fa-solid fa-pencil edit-icon"></i></p>
       </div>
 
-      <button class="edit-btn">Edit Profile</button>
-      <button class="logout-btn">Logout</button>
-
+      <div class="profile-icons">
+        <i class="fa-solid fa-ticket"></i>
+        <i class="fa-solid fa-circle-question"></i>
+        <i class="fa-solid fa-heart"></i>
+      </div>
     </div>
-  </section>
+  </div>
 
+  <footer>
+    &copy; 2025 Beauty by Thea
+  </footer>
 </body>
 </html>
