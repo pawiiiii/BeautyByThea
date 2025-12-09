@@ -292,3 +292,32 @@ body.home-page {
 .search-bar-container .search-message:hover {
   color: #c9b49a;
 }
+/* --- Info Boxes for Home Page --- */
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #5a4b3d;
+}
+
+.info-box .bold-text {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  font-size: 14px;
+  margin: 0;
+}
