@@ -1,3 +1,6 @@
+/* --- IMPORT FONT FOR BEAUTY BY THEA --- */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 /* --- General Styles --- */
 body {
   font-family: Arial, sans-serif;
@@ -12,6 +15,14 @@ header {
   text-align: center;
   color: #333;
   position: relative;
+}
+
+/* ★★★ FEMININE CURSIVE FONT FOR BEAUTY BY THEA ★★★ */
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  color: #5a4b3d;
+  margin: 0;
 }
 
 nav {
@@ -235,20 +246,4 @@ body.home-page {
 }
 
 .status-item p {
-  margin-top: 5px;
-}
-
-.status-item:hover i {
-  color: #c9b49a;
-}
-
-.about-us {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 20px;
-  overflow-y: auto;
-  max-height: 150px;
-  color: #5a4b3d;
-  font-size: 14px;
-}
+  margin-top:
