@@ -263,3 +263,32 @@ body.home-page {
   color: #5a4b3d;
   font-size: 14px;
 }
+/* Message icon beside search bar */
+.search-bar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.search-bar-container input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.search-bar-container .search-message {
+  position: absolute;
+  right: 10px;
+  font-size: 24px;
+  color: #5a4b3d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-bar-container .search-message:hover {
+  color: #c9b49a;
+}
