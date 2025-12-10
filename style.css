@@ -321,3 +321,58 @@ body.home-page {
   font-size: 14px;
   margin: 0;
 }
+
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .home-page h2 {
+    font-size: 24px;
+  }
+
+  .shop-now-btn button {
+    width: 80%;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .info-boxes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .status-icons {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .status-item {
+    text-align: center;
+  }
+
+  .about-us {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
